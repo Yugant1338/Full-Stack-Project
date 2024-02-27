@@ -31,6 +31,9 @@ body{
 
 .button{
     position: absolute;
+    /*display: flex;*/
+    /*margin-right: auto;*/
+    /*margin-left:auto;*/
     top: 60%;
     left: 40%;
     color: white;
@@ -51,4 +54,45 @@ body{
     margin: 0;
     background-color: grey;
     height: 7px;
+}
+.faq{
+    background-color: black;
+}
+.faq h1{
+    text-align: center;
+    color: white;
+    width: auto;
+    height: 60px;
+
+}
+.faq button{
+    display: flex;
+    margin-top: 1%;
+    width: 1000px;
+    height: 60px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #272829;
+    border: 0;
+
+}
+.faq font{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.faq span{
+    position: relative;
+    left: 40px; /* Adjust the right margin as desired */
+    color: white;
+    font-size: 30px;
+}
+.expanded{
+    color: white;
+    padding: 0;
+    visibility: hidden;
 }
