@@ -1,8 +1,13 @@
-let plusbtn = document.querySelectorAll('span');
-let expandedtext = document.querySelectorAll('.expanded');
-plusbtn.forEach((plus) => {
-    plus.addEventListener('click', ()=>{
-        expandedtext[0].style.visibility = 'visible';
+let plusBtns = document.querySelectorAll('.faq span');
+let expandedTexts = document.querySelectorAll('.faq .expanded');
+plusBtns.forEach((plus, index) => {
+    plus.addEventListener('click', () => {
+        if(expandedTexts[index].style.visibility==="hidden"){
+            expandedTexts[index].style.visibility = 'visible';
+        }
+        else{
+            expandedTexts[index].style.visibility = 'hidden';
+        }
+
     });
 });
-
