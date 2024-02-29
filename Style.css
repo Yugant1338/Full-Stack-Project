@@ -225,7 +225,7 @@ body{
     padding: 0;
     visibility: hidden;
 }
-.faq{
+.faqsection :hover{
     background-color: #373839;
     cursor: pointer;
 }
