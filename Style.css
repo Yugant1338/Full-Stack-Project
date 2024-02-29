@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-image: url(./Src/Background-img.jpg); */
+    background-color: #232323;
 }
 
 .main-page{
@@ -11,7 +11,7 @@ body{
 }
 
 .main-page .overlay{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -23,23 +23,31 @@ body{
     color: white;
     position: absolute;
     top: 40%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem;
-    font-weight: 400;
+    left: 45%;
+    transform: translate(-40%, -40%);
+    font-size: 1.7rem;
+    font-weight: 900;
 }
+
+.text h1{
+    text-align: center;
+}
+
+.text p{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+}
+
 
 .button{
     position: absolute;
-    /*display: flex;*/
-    /*margin-right: auto;*/
-    /*margin-left:auto;*/
     top: 60%;
-    left: 40%;
+    left: 55%;
     color: white;
     font-weight: 500;
     background-color: rgb(255, 22, 33);
-    width: 350px;
+    width: 250px;
     border: none;
     border-radius: 5px;
     transition: background-color 0.5s;
@@ -50,22 +58,149 @@ body{
     cursor: pointer;
 }
 
+#email{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    height: 58px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+#email::placeholder{
+    font-size: medium;
+}
+
 .ruling{
     margin: 0;
-    background-color: grey;
+    background-color: #272829;
     height: 7px;
 }
-.faq{
+.second-page{
     background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.second-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.second-page-main img{
+    width: 600px;
+    height: auto;
+}
+.second-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.second-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.third-page{
+    background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.third-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.third-page-main img{
+    width: 600px;
+    height: auto;
+}
+.third-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.third-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.fourth-page{
+    background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.fourth-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fourth-page-main img{
+    width: 600px;
+    height: auto;
+}
+.fourth-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.fourth-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.fifth-page{
+    background-color: black;
+    color: white;
+    height: 90dvh;
+    width: auto;
+}
+.fifth-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fifth-page-main img{
+    width: 600px;
+    height: auto;
+}
+.fifth-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.fifth-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.faq{
+    padding-top: 1%;
+    background-color: black;
+    padding-bottom: 5%;
+    
 }
 .faq h1{
+    padding-top: 5%;
     text-align: center;
     color: white;
     width: auto;
     height: 60px;
 
 }
-.faq button{
+.faq button,p.slide{
     display: flex;
     margin-top: 1%;
     width: 1000px;
@@ -74,10 +209,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #272829;
-    border: 0;
+    user-select: none;
 
 }
-.faq font{
+p.slide{
+    cursor: pointer;
+}
+.faq p{
     color: white;
     display: flex;
     justify-content: center;
@@ -91,8 +229,42 @@ body{
     color: white;
     font-size: 30px;
 }
-.expanded{
+.faq .slide{
     color: white;
-    padding: 0;
-    visibility: hidden;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
 }
+
+.faqinside:hover{
+    background-color: #373839;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 30dvh;
+    width: auto;
+    padding-top: 50px;
+}
+.footer-lists{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-lists ul{
+    list-style: none;
+}
+.footer-lists ul li{
+    color: white;
+}
+
+.footer-lists ul li A{
+    color: white;
+}
+
+
+
