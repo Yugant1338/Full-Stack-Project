@@ -186,70 +186,46 @@ body{
     font-size: 2rem;
     font-weight: 500;
 }
-.faq{
+.faqsection{
     background-color: black;
-    
+
 }
-.faq h1{
+.faqsection h1{
     text-align: center;
     color: white;
     width: auto;
     height: 60px;
 
 }
-.faq button{
+.faqsection div{
+    background-color: #272829;
     display: flex;
-    margin-top: 1%;
+    flex: 1;
     width: 1000px;
     height: 60px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #272829;
+    margin: 5px auto 10px;
+    text-align: left;
     border: 0;
 
 }
-.faq font{
+.faqsection p{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 20px;
 }
-.faq span{
+.faqsection span{
     position: relative;
     left: 40px; /* Adjust the right margin as desired */
     color: white;
     font-size: 30px;
 }
 .expanded{
-    color: white;
+    color:  white;
     padding: 0;
     visibility: hidden;
 }
-
-.faq1:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq2:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq3:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq4:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq5:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq6:hover{
+.faq{
     background-color: #373839;
     cursor: pointer;
 }
@@ -269,5 +245,9 @@ footer{
     list-style: none;
 }
 .footer-lists ul li{
+    color: white;
+}
+.footer-lists ul li a{
+    text-decoration: none;
     color: white;
 }
