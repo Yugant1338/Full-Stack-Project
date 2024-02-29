@@ -75,7 +75,7 @@ body{
 
 .ruling{
     margin: 0;
-    background-color: grey;
+    background-color: #272829;
     height: 7px;
 }
 .second-page{
@@ -162,7 +162,7 @@ body{
 .fifth-page{
     background-color: black;
     color: white;
-    height: 80dvh;
+    height: 90dvh;
     width: auto;
 }
 .fifth-page-main{
@@ -187,17 +187,20 @@ body{
     font-weight: 500;
 }
 .faq{
+    padding-top: 1%;
     background-color: black;
+    padding-bottom: 5%;
     
 }
 .faq h1{
+    padding-top: 5%;
     text-align: center;
     color: white;
     width: auto;
     height: 60px;
 
 }
-.faq button{
+.faq button,p.slide{
     display: flex;
     margin-top: 1%;
     width: 1000px;
@@ -206,10 +209,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #272829;
-    border: 0;
+    user-select: none;
 
 }
-.faq font{
+p.slide{
+    cursor: pointer;
+}
+.faq p{
     color: white;
     display: flex;
     justify-content: center;
@@ -223,33 +229,16 @@ body{
     color: white;
     font-size: 30px;
 }
-.expanded{
+.faq .slide{
     color: white;
-    padding: 0;
-    visibility: hidden;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
-.faq1:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq2:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq3:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq4:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq5:hover{
-    background-color: #373839;
-    cursor: pointer;
-}
-.faq6:hover{
+.faqinside:hover{
     background-color: #373839;
     cursor: pointer;
 }
@@ -271,3 +260,10 @@ footer{
 .footer-lists ul li{
     color: white;
 }
+
+.footer-lists ul li A{
+    color: white;
+}
+
+
+
