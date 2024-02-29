@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+}
+
+.main-page{
+    margin: 0;
+    height: 90dvh;
+    background-image: url(./Src/Background-img.jpg);
+}
+
+.main-page .overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-40%, -40%);
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.text h1{
+    text-align: center;
+}
+
+.text p{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(255, 22, 33);
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.button:hover{
+    background-color: rgb(193, 17, 25);
+    cursor: pointer;
+}
+
+#email{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    height: 58px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+#email::placeholder{
+    font-size: medium;
+}
+
+.ruling{
+    margin: 0;
+    background-color: grey;
+    height: 7px;
+}
+.second-page{
+    background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.second-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.second-page-main img{
+    width: 600px;
+    height: auto;
+}
+.second-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.second-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.third-page{
+    background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.third-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.third-page-main img{
+    width: 600px;
+    height: auto;
+}
+.third-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.third-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.fourth-page{
+    background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.fourth-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fourth-page-main img{
+    width: 600px;
+    height: auto;
+}
+.fourth-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.fourth-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.fifth-page{
+    background-color: black;
+    color: white;
+    height: 80dvh;
+    width: auto;
+}
+.fifth-page-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fifth-page-main img{
+    width: 600px;
+    height: auto;
+}
+.fifth-page-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.fifth-page-text p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.faqsection{
+    background-color: black;
+
+}
+.faqsection h1{
+    text-align: center;
+    color: white;
+    width: auto;
+    height: 60px;
+
+}
+.faqsection div{
+    background-color: #272829;
+    display: flex;
+    flex: 1;
+    width: 1000px;
+    height: 60px;
+    align-items: center;
+    margin: 5px auto 10px;
+    text-align: left;
+    border: 0;
+
+}
+.faqsection p{
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.faqsection span{
+    position: relative;
+    left: 40px; /* Adjust the right margin as desired */
+    color: white;
+    font-size: 30px;
+}
+.expanded{
+    color:  white;
+    padding: 0;
+    visibility: hidden;
+}
+.faq{
+    background-color: #373839;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 30dvh;
+    width: auto;
+    padding-top: 50px;
+}
+.footer-lists{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-lists ul{
+    list-style: none;
+}
+.footer-lists ul li{
+    color: white;
+}
+.footer-lists ul li a{
+    text-decoration: none;
+    color: white;
+}
