@@ -76,8 +76,7 @@ body{
 .ruling{
     margin: 0;
     background-color: #272829;
-    height: 10px;
-    border: 0;
+    height: 7px;
 }
 .second-page{
     background-color: black;
@@ -237,9 +236,9 @@ body{
     font-size: 20px;
     margin-left: 20px;
 }
-.faq .slide p{
+.faq .slide{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .faq .slide.active{
