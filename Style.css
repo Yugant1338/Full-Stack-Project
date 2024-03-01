@@ -76,7 +76,8 @@ body{
 .ruling{
     margin: 0;
     background-color: #272829;
-    height: 7px;
+    height: 10px;
+    border: 0;
 }
 .second-page{
     background-color: black;
