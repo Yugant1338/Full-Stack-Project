@@ -190,10 +190,15 @@ body{
     position: relative;
     margin: 10px 70px;
 }
+.faqheading{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
 .faq .faqinside{
     position: relative;
     align-items: center;
-    background: #53585b;
+    background: #272829FF;
     width: 100%;
     text-align: left;
     color: white ;
@@ -202,7 +207,7 @@ body{
     cursor: pointer;
 }
 .faq .faqinside::before{
-    content: '+';
+    content: url("./Src/plus.png");
     position: absolute;
     top: 50%;
     right: 20px;
@@ -211,11 +216,13 @@ body{
 }
 .faq .slide{
     margin-top: 1px;
+    color: white;
+    font-size: 20px;
     /* padding: 1px; */
 
     position: relative;
     align-items: center;
-    background: #53585b;
+    background: #272829;
     width: 100%;
     text-align: left;
     color: white ;
@@ -227,16 +234,22 @@ body{
     transition: height  0.5s;
     overflow-y:hidden;
 }
+.faqinside p{
+    font-size: 20px;
+    margin-left: 20px;
+}
 .faq .slide.active{
     height: 150px;
     padding: 6px;
 }
 
 .faq :hover{
-    background-color: #373839;
+    background-color: #414141;
     cursor: pointer;
 }
-
+.faq .slide :hover{
+    background-color: #272829;
+}
 footer{
     background-color: black;
     color: white;
