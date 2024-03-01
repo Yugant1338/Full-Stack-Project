@@ -186,50 +186,73 @@ body{
     font-size: 2rem;
     font-weight: 500;
 }
-.faqsection{
-    background-color: black;
-
+.faq{
+    position: relative;
+    margin: 10px 70px;
 }
-.faqsection h1{
+.faqheading{
     text-align: center;
     color: white;
-    width: auto;
-    height: 60px;
-
+    font-size: 45px;
 }
-.faqsection div{
-    background-color: #272829;
-    display: flex;
-    flex: 1;
-    width: 1000px;
-    height: 60px;
-    align-items: center;
-    margin: 5px auto 10px;
-    text-align: left;
-    border: 0;
-
-}
-.faqsection p{
-    color: white;
-    margin-left: 30px;
-    font-size: 20px;
-}
-.faqsection span{
+.faq .faqinside{
     position: relative;
-    left: 40px; /* Adjust the right margin as desired */
-    color: white;
-    font-size: 30px;
-}
-.expanded{
-    color:  white;
-    padding: 0;
-    visibility: hidden;
-}
-.faqsection :hover{
-    background-color: #373839;
+    align-items: center;
+    background: #272829FF;
+    width: 100%;
+    text-align: left;
+    color: white ;
+    border: 0;
+    box-sizing: content-box;
     cursor: pointer;
 }
+.faq .faqinside::before{
+    content: url("./Src/plus.png");
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 10px;
+}
+.faq .slide{
+    margin-top: 1px;
+    /* padding: 1px; */
 
+    position: relative;
+    align-items: center;
+    background: #272829;
+    width: 100%;
+    text-align: left;
+    color: white ;
+    border: 0;
+    box-sizing: content-box;
+    height: 0;
+    padding-left: 12px;
+    overflow: hidden;
+    transition: height  0.5s;
+    overflow-y:hidden;
+}
+.faqinside p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.faq .slide p{
+    color: white;
+    font-size: 30px;
+
+}
+.faq .slide.active{
+    height: 150px;
+    padding: 6px;
+}
+
+.faq :hover{
+    background-color: #414141;
+    cursor: pointer;
+}
+.faq .slide :hover{
+    background-color: #272829;
+}
 footer{
     background-color: black;
     color: white;
