@@ -186,59 +186,46 @@ body{
     font-size: 2rem;
     font-weight: 500;
 }
-.faq{
-    padding-top: 1%;
+.faqsection{
     background-color: black;
-    padding-bottom: 5%;
-    
+
 }
-.faq h1{
-    padding-top: 5%;
+.faqsection h1{
     text-align: center;
     color: white;
     width: auto;
     height: 60px;
 
 }
-.faq button,p.slide{
+.faqsection div{
+    background-color: #272829;
     display: flex;
-    margin-top: 1%;
+    flex: 1;
     width: 1000px;
     height: 60px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #272829;
-    user-select: none;
+    margin: 5px auto 10px;
+    text-align: left;
+    border: 0;
 
 }
-p.slide{
-    cursor: pointer;
-}
-.faq p{
+.faqsection p{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 20px;
 }
-.faq span{
+.faqsection span{
     position: relative;
     left: 40px; /* Adjust the right margin as desired */
     color: white;
     font-size: 30px;
 }
-.faq .slide{
-    color: white;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    font-size: 20px;
+.expanded{
+    color:  white;
+    padding: 0;
+    visibility: hidden;
 }
-
-.faqinside:hover{
+.faqsection :hover{
     background-color: #373839;
     cursor: pointer;
 }
@@ -260,10 +247,7 @@ footer{
 .footer-lists ul li{
     color: white;
 }
-
-.footer-lists ul li A{
+.footer-lists ul li a{
+    text-decoration: none;
     color: white;
 }
-
-
-
