@@ -216,6 +216,8 @@ body{
 }
 .faq .slide{
     margin-top: 1px;
+    color: white;
+    font-size: 20px;
     /* padding: 1px; */
 
     position: relative;
@@ -236,14 +238,10 @@ body{
     font-size: 20px;
     margin-left: 20px;
 }
-.faq .slide{
-    color: white;
-    font-size: 20px;
-
-}
 .faq .slide.active{
     height: 150px;
     padding: 6px;
+    
 }
 
 .faq :hover{
