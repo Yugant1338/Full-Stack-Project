@@ -158,6 +158,13 @@ body{
 .second-page-main img{
     width: 600px;
     height: auto;
+    z-index: 1;
+    left: 50%;
+}
+.second-page-main .animation{
+    width: 465px; 
+    position: absolute;
+    left: 58.5%;
 }
 .second-page-text h2{
     font-size: 2.5rem;
@@ -212,6 +219,14 @@ body{
 .fourth-page-main img{
     width: 600px;
     height: auto;
+    z-index: 1;
+}
+.fourth-page .animation2{
+    position: absolute;
+    left: 61%;
+    width:366px;
+    height: auto;
+    margin-bottom: 150px;
 }
 .fourth-page-text h2{
     font-size: 2.5rem;
